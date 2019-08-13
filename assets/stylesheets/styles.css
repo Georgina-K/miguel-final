@@ -1,16 +1,15 @@
 /* About Page CSS */
-
 .about-page {
   background-color: black;
 }
 
 .menu ul, li, a {
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
-    font-family: 'Orbitron', sans-serif;
-    padding: 40px;
-    text-shadow: black 1px 0 10px;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  padding: 40px;
+  text-shadow: black 1px 0 10px;
 }
 
 .irc_mi3 {
@@ -21,7 +20,7 @@
 }
 
 .miguell {
-  background-image:("miguel-about-photo.jpg");
+  background-image: ("miguel-about-photo.jpg");
   float: right;
   padding: 30px;
 }
@@ -30,7 +29,6 @@ h1 {
   color: white;
   font-family: 'Orbitron', sans-serif;
   text-align: left;
-
 }
 
 h2 {
@@ -44,54 +42,53 @@ h3 {
 }
 
 .artist {
-    margin-left:15px;
-    margin-bottom:10px;
-    color: white;
-    font-family: 'Questrial', sans-serif;
-    padding:10px;
-  }
+  margin-left: 15px;
+  margin-bottom: 10px;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  padding: 10px;
+}
 
 .history {
-        color: white;
-        font-family: 'Questrial', sans-serif;
-        padding: 10px;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  padding: 10px;
 }
 
 .early-life {
-    color: white;
-    font-family: 'Questrial', sans-serif;
-    padding: 10px;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  padding: 10px;
 }
 
 .kaleidoscope {
-      color: white;
-      font-family: 'Questrial', sans-serif;
-      padding: 10px;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  padding: 10px;
 }
 
 .label {
-    color: white;
-    font-family: 'Questrial', sans-serif;
-    padding: 10px;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  padding: 10px;
 }
 
 .present {
-    color: white;
-    font-family: 'Questrial', sans-serif;
-    padding: 10px;
-
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  padding: 10px;
 }
+
 .ul, li, associated-acts {
-    text-decoration: none;
-    list-style-type: circle;
-    padding: 0px;
-    margin-left: 10px;
-    color: white;
-    font-family: 'Questrial', sans-serif;
+  text-decoration: none;
+  list-style-type: circle;
+  padding: 0px;
+  margin-left: 10px;
+  color: white;
+  font-family: 'Questrial', sans-serif;
 }
 
 /* Tour Dates Page CSS*/
-
 .tour-dates-page {
   background-color: black;
 }
@@ -109,11 +106,11 @@ h3 {
 }
 
 .dvsn1 {
-position: absolute;
-left: 30px;
-padding-left: 30px;
-top: 600px;
-bottom: 50px;
+  position: absolute;
+  left: 30px;
+  padding-left: 30px;
+  top: 600px;
+  bottom: 50px;
 }
 
 .dvsn-words {
@@ -129,7 +126,6 @@ bottom: 50px;
   height: 1200px;
   width: 500px;
   background-color: #99FF33;
-
 }
 
 p.centered {
@@ -233,8 +229,7 @@ p.ticketmaster {
 }
 
 /* HOMEpage CSS page */
-
-.back-color{
+.back-color {
   background-color: black;
 }
 
@@ -253,9 +248,8 @@ p.ticketmaster {
 }
 
 /* Discography CSS Page*/
-
 .disco-back-color {
-    background-color: black;
+  background-color: black;
 }
 
 .irc_mi77 {
@@ -281,7 +275,7 @@ p.ticketmaster {
   padding-left: 20px;
 }
 
-.spotify-war-leisure-list{
+.spotify-war-leisure-list {
   position: absolute;
   top: 700px;
   left: 40px;
@@ -295,7 +289,7 @@ p.ticketmaster {
   padding-left: 20px;
 }
 
-.spotify-wildheart-list{
+.spotify-wildheart-list {
   position: absolute;
   top: 700px;
   left: 500px;
@@ -309,7 +303,7 @@ p.ticketmaster {
   padding-left: 20px;
 }
 
-.spotify-kaleidoscope-list{
+.spotify-kaleidoscope-list {
   position: absolute;
   top: 700px;
   left: 950px;
@@ -324,7 +318,6 @@ p.ticketmaster {
 }
 
 /* Media CSS Page */
-
 .irc_mi4 {
   position: relative;
   color: white;
@@ -363,80 +356,91 @@ p.ticketmaster {
 }
 
 .slidecontainer {
-          margin: 0;
-          background: #e6e6e6;
-      }
-      .showSlide {
-          display: none
-      }
-          .showSlide img {
-              width: 100%;
-          }
-      .slidercontainer {
-          max-width: 1000px;
-          position: relative;
-          margin: auto;
-      }
-      .left, .right {
-          cursor: pointer;
-          position: absolute;
-          top: 50%;
-          width: auto;
-          padding: 16px;
-          margin-top: -22px;
-          color: white;
-          font-weight: bold;
-          font-size: 18px;
-          transition: 0.6s ease;
-          border-radius: 0 3px 3px 0;
-      }
-      .right {
-          right: 0;
-          border-radius: 3px 0 0 3px;
-      }
-          .left:hover, .right:hover {
-              background-color: rgba(115, 115, 115, 0.8);
-          }
-      .content {
-          color: #eff5d4;
-          font-size: 30px;
-          padding: 8px 12px;
-          position: absolute;
-          top: 10px;
-          width: 100%;
-          text-align: center;
-          font-family: 'Questrial', sans-serif;
-      }
-      .active {
-          background-color: #717171;
-      }
-      /* Fading animation */
-      .fade {
-          -webkit-animation-name: fade;
-          -webkit-animation-duration: 1.5s;
-          animation-name: fade;
-          animation-duration: 1.5s;
-      }
-      @-webkit-keyframes fade {
-          from {
-              opacity: .4
-          }
-          to {
-              opacity: 1
-          }
-      }
+  margin: 0;
+  background: #e6e6e6;
+}
 
-      @keyframes fade {
-          from {
-              opacity: .4
-          }
-          to {
-              opacity: 1
-          }
-        }
+.showSlide {
+  display: none
+}
+
+.showSlide img {
+  width: 100%;
+}
+
+.slidercontainer {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.left, .right {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.right {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.left:hover, .right:hover {
+  background-color: rgba(115, 115, 115, 0.8);
+}
+
+.content {
+  color: #eff5d4;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
 
 /* Merch CSS Page */
-
 body.merch-page {
   background-color: black;
 }
@@ -449,63 +453,63 @@ body.merch-page {
 }
 
 .merch-background {
-    position: absolute;
-    width: 100%;
-    z-index: -1px;
-  }
+  position: absolute;
+  width: 100%;
+  z-index: -1px;
+}
 
-  .container {
-    overflow: hidden;
-    display: grid;
-    grid-template-rows: [outer-start] 1fr [inner-start] 1fr [inner-end] 1fr [outer-end];
-    grid-template-columns: [outer-start] 1fr [inner-start] 1fr [inner-end] 1fr [outer-end];
-    grid-area: inner
-  }
+.container {
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: [outer-start] 1fr [inner-start] 1fr [inner-end] 1fr [outer-end];
+  grid-template-columns: [outer-start] 1fr [inner-start] 1fr [inner-end] 1fr [outer-end];
+  grid-area: inner
+}
 
-  .filterDiv {
-    position: relative;
-    background-color: none;
-    display: none;
-    max-width: 220px;
-    padding: 30px;
-  }
+.filterDiv {
+  position: relative;
+  background-color: none;
+  display: none;
+  max-width: 220px;
+  padding: 30px;
+}
 
-  .sold-out {
-      position: absolute;
-      background: #99FF33;
-      width: 100%;
-      padding: 10px;
-      bottom: 0;
-      font-family: 'Orbitron', sans-serif;
-      text-align: center;
-    }
+.sold-out {
+  position: absolute;
+  background: #99FF33;
+  width: 100%;
+  padding: 10px;
+  bottom: 0;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
 
-  /* The "show" class is added to the filtered elements */
-  .show {
-    display: block;
-  }
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
 
-  /* Style the buttons */
-  .btn {
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    background-color: orange;
-    cursor: pointer;
-    font-family: 'Orbitron', sans-serif;
-    font-size: 20px;
-  }
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: orange;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+}
 
-  /* Add a light grey background on mouse-over */
-  .btn:hover {
-    background-color: #ddd;
-  }
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
 
-  /* Add a dark background to the active button */
-  .btn.active {
-    background-color: #99FF33;
-    color: black;
-  }
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #99FF33;
+  color: black;
+}
 
 .myBtnContainer {
   position: absolute;
