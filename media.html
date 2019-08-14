@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
+<title>Miguel - Media</title>
+<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+<link href="./assets/stylesheets/lightbox.min.css" rel="stylesheet" />
+<link href="./assets/stylesheets/styles.css" rel="stylesheet" />
+</head>
 
-  <title>Miguel - Media</title>
-
-
-  <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
-
-  <link href="./assets/stylesheets/lightbox.min.css" rel="stylesheet" />
-
-  <script src="./assets/javascripts/jquery.min.js"></script>
-
-  <link href="./assets/stylesheets/styles.css" rel="stylesheet" />
-
-
-
+<body bgcolor="black">
   <!---Navigation bar--->
   <div class="menu">
     <a href="index.html" class="menu">Home</a>
@@ -31,9 +24,6 @@
   <img class="irc_mi4" src="https://media1.giphy.com/media/26p63R69bn1mRoSgHw/source.gif" onload="typeof google==='object'
     &amp;&amp;google.aft&amp;&amp;google.aft(this)" alt="Image result for miguel logo" width="450" height="253" style="" data-iml="1564699628372">
 
-</head>
-
-<body bgcolor="black">
 
   <div class="photo-gallery">PHOTOS:</div>
 
@@ -96,7 +86,15 @@
 
     </div>
 
-    <script type="text/javascript">
+    <!---Navigation arrows--->
+   <a class="left" onclick="nextSlide(-1)">❮</a>
+   <a class="right" onclick="nextSlide(1)">❯</a>
+</div>
+
+
+<script src="./assets/javascripts/jquery.min.js"></script>
+<script src="./assets/javascripts/lightbox.min.js"></script>
+<script type="text/javascript">
       var slide_index = 1;
       displaySlides(slide_index);
 
@@ -123,17 +121,6 @@
         slides[slide_index - 1].style.display = "block";
       }
     </script>
-
-
-
-    <!-- Navigation arrows -->
-    <a class="left" onclick="nextSlide(-1)">❮</a>
-    <a class="right" onclick="nextSlide(1)">❯</a>
-  </div>
-
-
-<script src="./assets/javascripts/lightbox.min.js"></script>
-
 
 
 </body>
