@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!---<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
 
@@ -13,12 +13,71 @@
 
   <script src="./assets/javascripts/jquery.min.js"></script>
 
-  <link href="./assets/stylesheets/styles.css" rel="stylesheet" />
+  <link href="./assets/stylesheets/styles.css" rel="stylesheet" />--->
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Miguel - Media</title>
+<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swapLinks to an external site." rel="stylesheet">
+<link href="./assets/stylesheets/lightbox.min.css" rel="stylesheet" />
+<link href="./assets/stylesheets/styles.css" rel="stylesheet" />
+
+</head>
+
+<body bgcolor="black"> <------this should be in your CSS using "body { background-color: #000000; }"
+<!---Navigation bar--->
+<div class="menu">
+<a href="index.html" class="menu">Home</a>
+...
+</div>
+
+<!---Miguel Flashing logo--->
+<img class="irc_mi4" src="https://media1.giphy.com/media/26p63R69bn1mRoSgHw/source.gifLinks to an external site." onload="typeof google==='object'
+&amp;&amp;google.aft&amp;&amp;google.aft(this)" alt="Image result for miguel logo" width="450" height="253" style="" data-iml="1564699628372">
+
+...
+
+<script src="./assets/javascripts/jquery.min.js"></script>
+<script src="./assets/javascripts/lightbox.min.js"></script>
+<!-- THIS SCRIPT SHOULD BE MOVED TO THE CLOSING BODY TAG AS WELL AND THIS COMMENT REMOVED -->
+<script type="text/javascript">
+var slide_index = 1;
+displaySlides(slide_index);
+
+function nextSlide(n) {
+displaySlides(slide_index += n);
+}
+
+function currentSlide(n) {
+displaySlides(slide_index = n);
+}
+
+function displaySlides(n) {
+var i;
+var slides = document.getElementsByClassName("showSlide");
+if (n > slides.length) {
+slide_index = 1
+}
+if (n < 1) {
+slide_index = slides.length
+}
+for (i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+slides[slide_index - 1].style.display = "block";
+}
+</script>
+
+</body>
 
 
 
-  <!---Navigation bar--->
-  <div class="menu">
+
+
+
+ <!---Navigation bar--->
+  <!---<div class="menu">
     <a href="index.html" class="menu">Home</a>
     <a href="about.html" class="menu">About</a>
     <a href="discography.html" class="menu">Discography</a>
@@ -28,7 +87,7 @@
   </div>
 
   <!---Miguel Flashing logo--->
-  <img class="irc_mi4" src="https://media1.giphy.com/media/26p63R69bn1mRoSgHw/source.gif" onload="typeof google==='object'
+  <!--<img class="irc_mi4" src="https://media1.giphy.com/media/26p63R69bn1mRoSgHw/source.gif" onload="typeof google==='object'
     &amp;&amp;google.aft&amp;&amp;google.aft(this)" alt="Image result for miguel logo" width="450" height="253" style="" data-iml="1564699628372">
 
 </head>
@@ -38,7 +97,7 @@
   <div class="photo-gallery">PHOTOS:</div>
 
   <!---Light box photo gallery---->
-  <a href="./assets/images/lightbox/instagram-1.png" data-lightbox="instagram 1">
+<!---  <a href="./assets/images/lightbox/instagram-1.png" data-lightbox="instagram 1">
     <img src="./assets/images/lightbox/instagram-1-thumbnail.png" />
   </a>
 
@@ -127,13 +186,13 @@
 
 
     <!-- Navigation arrows -->
-    <a class="left" onclick="nextSlide(-1)">❮</a>
+  <!---  <a class="left" onclick="nextSlide(-1)">❮</a>
     <a class="right" onclick="nextSlide(1)">❯</a>
   </div>
 
 <script src="./assets/javascripts/lightbox.min.js"></script>
 
 
-</body>
+</body>--->
 
 </html>
